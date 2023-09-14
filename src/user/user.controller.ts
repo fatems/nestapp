@@ -50,7 +50,7 @@ export class UserController {
         'Failed to create user',
         HttpStatus.INTERNAL_SERVER_ERROR,
       );
-    }
+    } 
   }
 
   @Get(':userId')
